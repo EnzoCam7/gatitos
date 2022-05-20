@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-image: url('https://media.istockphoto.com/vectors/cat-seamless-pattern-vector-kitten-halloween-isolated-background-vector-id950793394?b=1&k=6&m=950793394&s=170667a&w=0&h=4S7ljcT36iFzphZmy_BP37nUe2iceiixwAghjwbFyyw=');
+}
+
+header{
+    margin: 1rem 0;
+    z-index: 10;
+    background-color: hsl(30, 11%, 93%);
+    width: 100%;
+    padding: 10px;
+}
+
+main{
+    z-index: 101;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 23rem;
+    height: 18rem;
+}
+
+button{
+    cursor: pointer;
+    z-index: 100;
+    background-color: hsl(30, 11%, 93%);
+    padding: 10px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+@media (max-width: 365px) {
+    header h1{
+        font-size: 200;
+        margin-bottom: 20px;
+    }
+
+    img{
+        max-width: 17rem;
+        max-height: 12rem;
+    }
+    
+}
