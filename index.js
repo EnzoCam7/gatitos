@@ -14,5 +14,3 @@ async function gatitosBonitos(){
     img.src = data[0].url
 }
 gatitosBonitos()
-const botonDeGatitos = document.querySelector('button')
-botonDeGatitos.onclick = gatitosBonitos;
